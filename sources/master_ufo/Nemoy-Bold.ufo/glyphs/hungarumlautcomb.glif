@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb" format="2">
+  <unicode hex="030B"/>
+  <anchor x="525" y="1049" name="_top"/>
+  <anchor x="548" y="1586" name="top"/>
+  <outline>
+    <component base="caroncomb.alt"/>
+    <component base="caroncomb.alt" xOffset="455"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1094</integer>
+    </dict>
+  </lib>
+</glyph>

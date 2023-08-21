@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="registered" format="2">
+  <advance width="1402"/>
+  <unicode hex="00AE"/>
+  <anchor x="732.2885" y="837.0" name="bottom"/>
+  <anchor x="718.9168999999999" y="1304.3982" name="top"/>
+  <outline>
+    <contour>
+      <point x="701" y="445" type="curve" smooth="yes"/>
+      <point x="1049" y="445"/>
+      <point x="1332" y="728"/>
+      <point x="1332" y="1076" type="curve" smooth="yes"/>
+      <point x="1332" y="1424"/>
+      <point x="1049" y="1707"/>
+      <point x="701" y="1707" type="curve" smooth="yes"/>
+      <point x="353" y="1707"/>
+      <point x="70" y="1424"/>
+      <point x="70" y="1076" type="curve" smooth="yes"/>
+      <point x="70" y="728"/>
+      <point x="353" y="445"/>
+    </contour>
+    <contour>
+      <point x="701" y="725" type="curve" smooth="yes"/>
+      <point x="488" y="725"/>
+      <point x="350" y="863"/>
+      <point x="350" y="1076" type="curve" smooth="yes"/>
+      <point x="350" y="1289"/>
+      <point x="488" y="1427"/>
+      <point x="701" y="1427" type="curve" smooth="yes"/>
+      <point x="914" y="1427"/>
+      <point x="1052" y="1289"/>
+      <point x="1052" y="1076" type="curve" smooth="yes"/>
+      <point x="1052" y="863"/>
+      <point x="914" y="725"/>
+    </contour>
+    <component base="R" xScale="0.3039" yScale="0.3039" xOffset="515" yOffset="837"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PPC</string>
+    </dict>
+  </lib>
+</glyph>

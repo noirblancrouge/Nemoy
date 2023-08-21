@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l" format="2">
+  <advance width="1136"/>
+  <unicode hex="006C"/>
+  <anchor x="616" y="0" name="bottom"/>
+  <anchor x="517" y="769" name="center"/>
+  <anchor x="517" y="1538" name="top"/>
+  <anchor x="1121" y="1538" name="topright"/>
+  <outline>
+    <component base="L"/>
+  </outline>
+</glyph>

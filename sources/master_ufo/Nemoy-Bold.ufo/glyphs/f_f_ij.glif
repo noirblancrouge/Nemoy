@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f_ij" format="2">
+  <advance width="4361"/>
+  <anchor x="3687" y="0" name="bottom_1"/>
+  <anchor x="716" y="0" name="bottom_2"/>
+  <anchor x="2983" y="120" name="ogonek"/>
+  <anchor x="3727" y="1538" name="top_1"/>
+  <anchor x="716" y="1538" name="top_2"/>
+  <anchor x="2366" y="1538" name="topleft"/>
+  <outline>
+    <component base="J" xOffset="3057"/>
+    <component base="f_f_i"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>J</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
