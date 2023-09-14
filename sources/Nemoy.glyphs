@@ -93,8 +93,8 @@ feature numr;
 feature dnom;
 feature frac;
 feature ordn;
-feature zero;
 feature case;
+feature zero;
 ";
 tag = aalt;
 },
@@ -257,11 +257,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1900;
+value = 2830;
 },
 {
 name = typoDescender;
-value = -560;
+value = -880;
 },
 {
 name = typoLineGap;
@@ -269,19 +269,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1900;
+value = 2830;
 },
 {
 name = winDescent;
-value = 560;
+value = 880;
 },
 {
 name = hheaAscender;
-value = 1900;
+value = 2830;
 },
 {
 name = hheaDescender;
-value = -560;
+value = -880;
 },
 {
 name = strikeoutPosition;
@@ -362,11 +362,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1900;
+value = 2830;
 },
 {
 name = typoDescender;
-value = -560;
+value = -880;
 },
 {
 name = typoLineGap;
@@ -374,19 +374,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1900;
+value = 2830;
 },
 {
 name = winDescent;
-value = 560;
+value = 880;
 },
 {
 name = hheaAscender;
-value = 1900;
+value = 2830;
 },
 {
 name = hheaDescender;
-value = -560;
+value = -880;
 },
 {
 name = strikeoutPosition;
@@ -10220,7 +10220,7 @@ unicode = 310;
 glyphname = L;
 kernLeft = H;
 kernRight = L;
-lastChange = "2023-09-14 08:15:31 +0000";
+lastChange = "2023-09-14 08:47:45 +0000";
 layers = (
 {
 anchors = (
@@ -10665,7 +10665,7 @@ unicode = 313;
 glyphname = Lcaron;
 kernLeft = H;
 kernRight = L;
-lastChange = "2023-09-14 04:35:09 +0000";
+lastChange = "2023-09-14 08:46:49 +0000";
 layers = (
 {
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
@@ -25710,13 +25710,13 @@ unicode = 240;
 glyphname = dcaron;
 kernLeft = H;
 kernRight = O;
-lastChange = "2023-09-14 04:35:09 +0000";
+lastChange = "2023-09-14 08:50:30 +0000";
 layers = (
 {
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
 shapes = (
 {
-ref = D;
+ref = d;
 },
 {
 pos = (306,405);
@@ -25729,7 +25729,7 @@ width = 1347;
 layerId = m004;
 shapes = (
 {
-ref = D;
+ref = d;
 },
 {
 pos = (315,489);
@@ -31532,7 +31532,7 @@ unicode = 312;
 glyphname = l;
 kernLeft = H;
 kernRight = L;
-lastChange = "2023-09-14 04:37:24 +0000";
+lastChange = "2023-09-14 08:47:54 +0000";
 layers = (
 {
 anchors = (
@@ -38905,13 +38905,13 @@ unicode = 359;
 glyphname = tcaron;
 kernLeft = T;
 kernRight = T;
-lastChange = "2023-09-14 04:35:09 +0000";
+lastChange = "2023-09-14 08:50:35 +0000";
 layers = (
 {
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
 shapes = (
 {
-ref = T;
+ref = t;
 },
 {
 pos = (455,405);
@@ -38924,7 +38924,7 @@ width = 1426;
 layerId = m004;
 shapes = (
 {
-ref = T;
+ref = t;
 },
 {
 pos = (386,489);
@@ -73269,6 +73269,51 @@ note = ogonek;
 unicode = 731;
 },
 {
+glyphname = IJacute;
+lastChange = "2023-09-14 08:44:55 +0000";
+layers = (
+{
+layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
+shapes = (
+{
+ref = IJ;
+},
+{
+alignment = -1;
+pos = (999,405);
+ref = acutecomb;
+},
+{
+alignment = -1;
+pos = (311,405);
+ref = acutecomb;
+}
+);
+width = 1701;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = IJ;
+},
+{
+alignment = -1;
+pos = (1293,489);
+ref = acutecomb;
+},
+{
+alignment = -1;
+pos = (340,489);
+ref = acutecomb;
+}
+);
+width = 2215;
+}
+);
+unicode = 57651;
+},
+{
 glyphname = uniE000;
 lastChange = "2023-09-14 04:35:09 +0000";
 layers = (
@@ -73333,8 +73378,8 @@ note = uniE000;
 unicode = 57344;
 },
 {
-glyphname = IJacute;
-lastChange = "2023-09-14 04:35:09 +0000";
+glyphname = ijacute;
+lastChange = "2023-09-14 08:43:08 +0000";
 layers = (
 {
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
@@ -73375,6 +73420,7 @@ ref = acutecomb;
 width = 2215;
 }
 );
+unicode = 57652;
 }
 );
 instances = (
@@ -73389,11 +73435,11 @@ value = "12AF635E-66FE-4C90-B49C-8787585F2B73";
 },
 {
 name = typoAscender;
-value = 1900;
+value = 2830;
 },
 {
 name = typoDescender;
-value = -560;
+value = -880;
 },
 {
 name = typoLineGap;
@@ -73401,19 +73447,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1900;
+value = 2830;
 },
 {
 name = winDescent;
-value = 560;
+value = 880;
 },
 {
 name = hheaAscender;
-value = 1900;
+value = 2830;
 },
 {
 name = hheaDescender;
-value = -560;
+value = -880;
 },
 {
 name = strikeoutPosition;
