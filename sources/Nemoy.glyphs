@@ -43,21 +43,6 @@ value = {
 };
 },
 {
-name = panose;
-value = (
-2,
-11,
-3,
-4,
-4,
-4,
-2,
-0,
-2,
-3
-);
-},
-{
 name = unicodeRanges;
 value = (
 0,
@@ -73039,7 +73024,8 @@ value = m004;
 }
 );
 instanceInterpolations = {
-"12AF635E-66FE-4C90-B49C-8787585F2B73" = 1;
+"12AF635E-66FE-4C90-B49C-8787585F2B73" = 1.75;
+m004 = -0.75;
 };
 name = Variable;
 properties = (
