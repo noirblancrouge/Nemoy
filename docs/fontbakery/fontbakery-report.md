@@ -2,12 +2,7 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[8] Nemoy-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2825, but got 1900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 875, but got 560 instead [code: descent]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+<details><summary><b>[9] Nemoy-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -23,17 +18,18 @@ fontbakery version: 0.9.0
 	- l + f
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.8115234375x (3710) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
- [code: unreachable-glyphs]
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1060,6 +1056,156 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 * ⚠ **WARN** tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* exclam (U+0021): X=199.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* exclam (U+0021): X=296.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* F (U+0046): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* G (U+0047): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* H (U+0048): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* H (U+0048): X=1219.0,Y=-2.0 (should be at baseline 0?)
+
+	* H (U+0048): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* P (U+0050): X=188.0,Y=-1.0 (should be at baseline 0?)
+
+	* P (U+0050): X=188.0,Y=-1.0 (should be at baseline 0?)
+
+	* f (U+0066): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* g (U+0067): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* h (U+0068): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* h (U+0068): X=1219.0,Y=-2.0 (should be at baseline 0?)
+
+	* h (U+0068): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* p (U+0070): X=188.0,Y=-1.0 (should be at baseline 0?)
+
+	* p (U+0070): X=188.0,Y=-1.0 (should be at baseline 0?)
+
+	* ordmasculine (U+00BA): X=269.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* ordmasculine (U+00BA): X=580.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* questiondown (U+00BF): X=730.0,Y=-1.5 (should be at baseline 0?)
+
+	* Gcircumflex (U+011C): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* gcircumflex (U+011D): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* Gbreve (U+011E): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* gbreve (U+011F): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* Gdotaccent (U+0120): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0122 (U+0122): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* uni0123 (U+0123): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* Hcircumflex (U+0124): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* Hcircumflex (U+0124): X=1219.0,Y=-2.0 (should be at baseline 0?)
+
+	* Hcircumflex (U+0124): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* hcircumflex (U+0125): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* hcircumflex (U+0125): X=1219.0,Y=-2.0 (should be at baseline 0?)
+
+	* hcircumflex (U+0125): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* Hbar (U+0126): X=219.0,Y=-2.0 (should be at baseline 0?)
+
+	* Hbar (U+0126): X=1250.0,Y=-2.0 (should be at baseline 0?)
+
+	* Hbar (U+0126): X=219.0,Y=-2.0 (should be at baseline 0?)
+
+	* hbar (U+0127): X=219.0,Y=-2.0 (should be at baseline 0?)
+
+	* hbar (U+0127): X=1250.0,Y=-2.0 (should be at baseline 0?)
+
+	* hbar (U+0127): X=219.0,Y=-2.0 (should be at baseline 0?)
+
+	* napostrophe (U+0149): X=53.5,Y=1536.0 (should be at cap-height 1538?)
+
+	* Uogonek (U+0172): X=873.0,Y=-1.0 (should be at baseline 0?)
+
+	* uogonek (U+0173): X=873.0,Y=-1.0 (should be at baseline 0?)
+
+	* Gcaron (U+01E6): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* gcaron (U+01E7): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* tilde (U+02DC): X=552.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* tildecomb (U+0303): X=552.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* pi (U+03C0): X=1241.5,Y=0.5 (should be at baseline 0?)
+
+	* uni1E20 (U+1E20): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* uni1E21 (U+1E21): X=1566.0,Y=2.0 (should be at baseline 0?)
+
+	* uni1E24 (U+1E24): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E24 (U+1E24): X=1219.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E24 (U+1E24): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E25 (U+1E25): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E25 (U+1E25): X=1219.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E25 (U+1E25): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2A (U+1E2A): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2A (U+1E2A): X=1219.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2A (U+1E2A): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2B (U+1E2B): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2B (U+1E2B): X=1219.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2B (U+1E2B): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* quoteleft (U+2018): X=417.5,Y=1536.0 (should be at cap-height 1538?)
+
+	* quoteright (U+2019): X=53.5,Y=1536.0 (should be at cap-height 1538?)
+
+	* quotedblleft (U+201C): X=826.0,Y=1536.0 (should be at cap-height 1538?)
+
+	* quotedblleft (U+201C): X=416.0,Y=1536.0 (should be at cap-height 1538?)
+
+	* quotedblright (U+201D): X=53.5,Y=1536.0 (should be at cap-height 1538?)
+
+	* quotedblright (U+201D): X=463.5,Y=1536.0 (should be at cap-height 1538?)
+
+	* trademark (U+2122): X=874.0,Y=1536.0 (should be at cap-height 1538?)
+
+	* trademark (U+2122): X=1609.0,Y=1536.0 (should be at cap-height 1538?)
+
+	* uniE000 (U+E000): X=0.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uniE000 (U+E000): X=1540.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* fi (U+FB01): X=188.0,Y=-2.0 (should be at baseline 0?)
+
+	* fi (U+FB01): X=188.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1222,12 +1368,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[7] Nemoy-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2825, but got 1900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 875, but got 560 instead [code: descent]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Nemoy-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -1243,17 +1384,18 @@ The following glyphs do not have the recommended number of contours:
 	- l + f
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.8115234375x (3710) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
- [code: unreachable-glyphs]
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -2320,16 +2462,117 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 * ⚠ **WARN** tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* exclam (U+0021): X=199.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* exclam (U+0021): X=259.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* percent (U+0025): X=605.0,Y=2.0 (should be at baseline 0?)
+
+	* N (U+004E): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* P (U+0050): X=170.0,Y=-1.0 (should be at baseline 0?)
+
+	* P (U+0050): X=170.0,Y=-1.0 (should be at baseline 0?)
+
+	* n (U+006E): X=175.5,Y=1536.5 (should be at x-height 1538?)
+
+	* n (U+006E): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* p (U+0070): X=170.0,Y=-1.0 (should be at baseline 0?)
+
+	* p (U+0070): X=170.0,Y=-1.0 (should be at baseline 0?)
+
+	* sterling (U+00A3): X=462.0,Y=-2.0 (should be at baseline 0?)
+
+	* registered (U+00AE): X=591.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* ordmasculine (U+00BA): X=269.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* ordmasculine (U+00BA): X=580.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* onequarter (U+00BC): X=361.0,Y=2.0 (should be at baseline 0?)
+
+	* onehalf (U+00BD): X=361.0,Y=2.0 (should be at baseline 0?)
+
+	* threequarters (U+00BE): X=481.0,Y=2.0 (should be at baseline 0?)
+
+	* Ntilde (U+00D1): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* ntilde (U+00F1): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* Eogonek (U+0118): X=1069.0,Y=-1.0 (should be at baseline 0?)
+
+	* eogonek (U+0119): X=1069.0,Y=-1.0 (should be at baseline 0?)
+
+	* Nacute (U+0143): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* nacute (U+0144): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni0145 (U+0145): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni0146 (U+0146): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* Ncaron (U+0147): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* ncaron (U+0148): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* napostrophe (U+0149): X=611.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* Eng (U+014A): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* eng (U+014B): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* Uogonek (U+0172): X=847.0,Y=-1.0 (should be at baseline 0?)
+
+	* uogonek (U+0173): X=847.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni019D (U+019D): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni01EA (U+01EA): X=1083.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni01EB (U+01EB): X=1083.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0272 (U+0272): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni1E44 (U+1E44): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni1E45 (U+1E45): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni1E46 (U+1E46): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni1E47 (U+1E47): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* Nmacronbelow (U+1E48): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* nmacronbelow (U+1E49): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* perthousand (U+2030): X=605.0,Y=2.0 (should be at baseline 0?)
+
+	* fraction (U+2044): X=48.0,Y=2.0 (should be at baseline 0?)
+
+	* uni2116 (U+2116): X=1773.0,Y=1536.0 (should be at cap-height 1538?)
+
+	* uni2116 (U+2116): X=2234.5,Y=1536.0 (should be at cap-height 1538?)
+
+	* uni2116 (U+2116): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* trademark (U+2122): X=847.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* trademark (U+2122): X=1546.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uniE000 (U+E000): X=0.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uniE000 (U+E000): X=1540.0,Y=1540.0 (should be at cap-height 1538?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[8] Nemoy-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2825, but got 1900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 875, but got 560 instead [code: descent]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] Nemoy-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -2345,17 +2588,18 @@ The following glyphs do not have the recommended number of contours:
 	- l + f
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.8115234375x (3710) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
- [code: unreachable-glyphs]
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -3122,6 +3366,196 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 * ⚠ **WARN** tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* exclam (U+0021): X=199.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* exclam (U+0021): X=333.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* dollar (U+0024): X=595.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* ampersand (U+0026): X=350.5,Y=1538.5 (should be at cap-height 1538?)
+
+	* ampersand (U+0026): X=920.5,Y=1538.5 (should be at cap-height 1538?)
+
+	* four (U+0034): X=577.5,Y=-0.5 (should be at baseline 0?)
+
+	* four (U+0034): X=1176.5,Y=-0.5 (should be at baseline 0?)
+
+	* F (U+0046): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* H (U+0048): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* H (U+0048): X=207.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* H (U+0048): X=1238.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* H (U+0048): X=1238.0,Y=-2.0 (should be at baseline 0?)
+
+	* H (U+0048): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* P (U+0050): X=207.0,Y=-1.0 (should be at baseline 0?)
+
+	* P (U+0050): X=207.0,Y=-1.0 (should be at baseline 0?)
+
+	* f (U+0066): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* h (U+0068): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* h (U+0068): X=207.0,Y=1540.0 (should be at x-height 1538?)
+
+	* h (U+0068): X=207.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* h (U+0068): X=1238.0,Y=1540.0 (should be at x-height 1538?)
+
+	* h (U+0068): X=1238.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* h (U+0068): X=1238.0,Y=-2.0 (should be at baseline 0?)
+
+	* h (U+0068): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* p (U+0070): X=207.0,Y=-1.0 (should be at baseline 0?)
+
+	* p (U+0070): X=207.0,Y=-1.0 (should be at baseline 0?)
+
+	* ordmasculine (U+00BA): X=269.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* ordmasculine (U+00BA): X=580.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* onequarter (U+00BC): X=1109.0,Y=-0.5 (should be at baseline 0?)
+
+	* onequarter (U+00BC): X=1472.0,Y=-0.5 (should be at baseline 0?)
+
+	* threequarters (U+00BE): X=1170.0,Y=-0.5 (should be at baseline 0?)
+
+	* threequarters (U+00BE): X=1533.5,Y=-0.5 (should be at baseline 0?)
+
+	* questiondown (U+00BF): X=753.5,Y=-0.5 (should be at baseline 0?)
+
+	* Hcircumflex (U+0124): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* Hcircumflex (U+0124): X=207.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* Hcircumflex (U+0124): X=1238.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* Hcircumflex (U+0124): X=1238.0,Y=-2.0 (should be at baseline 0?)
+
+	* Hcircumflex (U+0124): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* hcircumflex (U+0125): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* hcircumflex (U+0125): X=207.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* hcircumflex (U+0125): X=1238.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* hcircumflex (U+0125): X=1238.0,Y=-2.0 (should be at baseline 0?)
+
+	* hcircumflex (U+0125): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* Hbar (U+0126): X=255.0,Y=-2.0 (should be at baseline 0?)
+
+	* Hbar (U+0126): X=255.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* Hbar (U+0126): X=1286.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* Hbar (U+0126): X=1286.0,Y=-2.0 (should be at baseline 0?)
+
+	* Hbar (U+0126): X=255.0,Y=-2.0 (should be at baseline 0?)
+
+	* hbar (U+0127): X=255.0,Y=-2.0 (should be at baseline 0?)
+
+	* hbar (U+0127): X=255.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* hbar (U+0127): X=1286.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* hbar (U+0127): X=1286.0,Y=-2.0 (should be at baseline 0?)
+
+	* hbar (U+0127): X=255.0,Y=-2.0 (should be at baseline 0?)
+
+	* Uogonek (U+0172): X=900.0,Y=-2.0 (should be at baseline 0?)
+
+	* uogonek (U+0173): X=900.0,Y=-2.0 (should be at baseline 0?)
+
+	* breve (U+02D8): X=208.0,Y=1536.0 (should be at cap-height 1538?)
+
+	* breve (U+02D8): X=368.0,Y=1536.0 (should be at cap-height 1538?)
+
+	* ring (U+02DA): X=354.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* ring (U+02DA): X=208.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* tilde (U+02DC): X=522.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* tildecomb (U+0303): X=522.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* uni0306 (U+0306): X=208.0,Y=1536.0 (should be at cap-height 1538?)
+
+	* uni0306 (U+0306): X=368.0,Y=1536.0 (should be at cap-height 1538?)
+
+	* uni030A (U+030A): X=354.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* uni030A (U+030A): X=208.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni03A9 (U+03A9): X=748.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* uni1E24 (U+1E24): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E24 (U+1E24): X=207.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uni1E24 (U+1E24): X=1238.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uni1E24 (U+1E24): X=1238.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E24 (U+1E24): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E25 (U+1E25): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E25 (U+1E25): X=207.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uni1E25 (U+1E25): X=1238.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uni1E25 (U+1E25): X=1238.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E25 (U+1E25): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2A (U+1E2A): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2A (U+1E2A): X=207.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uni1E2A (U+1E2A): X=1238.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uni1E2A (U+1E2A): X=1238.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2A (U+1E2A): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2B (U+1E2B): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2B (U+1E2B): X=207.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uni1E2B (U+1E2B): X=1238.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uni1E2B (U+1E2B): X=1238.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1E2B (U+1E2B): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* dagger (U+2020): X=632.0,Y=2.0 (should be at baseline 0?)
+
+	* daggerdbl (U+2021): X=632.0,Y=2.0 (should be at baseline 0?)
+
+	* lozenge (U+25CA): X=572.0,Y=1.0 (should be at baseline 0?)
+
+	* lozenge (U+25CA): X=483.0,Y=1.0 (should be at baseline 0?)
+
+	* uniE000 (U+E000): X=0.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uniE000 (U+E000): X=1540.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* fi (U+FB01): X=207.0,Y=-2.0 (should be at baseline 0?)
+
+	* fi (U+FB01): X=207.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3286,12 +3720,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[9] Nemoy-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2825, but got 1900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 875, but got 560 instead [code: descent]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] Nemoy-Black.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -3307,17 +3736,18 @@ The following glyphs do not have the recommended number of contours:
 	- l + f
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.8115234375x (3710) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
- [code: unreachable-glyphs]
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -4093,6 +4523,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* IJ (U+0132): L<<2075.0,1416.0>--<2075.0,503.0>> -> L<<2075.0,503.0>--<2075.0,502.0>>
 
+	* IJacute (U+E133): L<<2075.0,1416.0>--<2075.0,503.0>> -> L<<2075.0,503.0>--<2075.0,502.0>>
+
 	* J (U+004A): L<<1164.0,1416.0>--<1164.0,503.0>> -> L<<1164.0,503.0>--<1164.0,502.0>>
 
 	* Jcircumflex (U+0134): L<<1164.0,1416.0>--<1164.0,503.0>> -> L<<1164.0,503.0>--<1164.0,502.0>>
@@ -4120,6 +4552,8 @@ The following glyphs do not have the recommended number of contours:
 	* gdotaccent (U+0121): L<<1699.0,759.0>--<1699.0,758.0>> -> L<<1699.0,758.0>--<1699.0,757.0>>
 
 	* ij (U+0133): L<<2075.0,1416.0>--<2075.0,503.0>> -> L<<2075.0,503.0>--<2075.0,502.0>>
+
+	* ijacute (U+E134): L<<2075.0,1416.0>--<2075.0,503.0>> -> L<<2075.0,503.0>--<2075.0,502.0>>
 
 	* integral (U+222B): L<<327.0,78.0>--<449.0,623.0>> -> L<<449.0,623.0>--<571.0,1169.0>>
 
@@ -4248,12 +4682,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[8] Nemoy-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2825, but got 1900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 875, but got 560 instead [code: descent]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Nemoy-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -4269,17 +4698,18 @@ The following glyphs do not have the recommended number of contours:
 	- l + f
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.8115234375x (3710) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- IJacute
- [code: unreachable-glyphs]
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -5270,8 +5700,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 35 | 602 | 31 | 509 | 0 |
-| 0% | 0% | 3% | 51% | 3% | 43% | 0% |
+| 0 | 0 | 43 | 602 | 31 | 506 | 0 |
+| 0% | 0% | 4% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
