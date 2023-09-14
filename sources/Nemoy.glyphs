@@ -1,6 +1,9 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+"·"
+);
 axes = (
 {
 name = Weight;
@@ -54437,146 +54440,8 @@ note = questiondown;
 unicode = 191;
 },
 {
-glyphname = middot;
-lastChange = "2023-09-14 04:35:09 +0000";
-layers = (
-{
-background = {
-hints = (
-{
-horizontal = 1;
-place = (705, 240.15);
-place = (705, 240.15);
-type = Stem;
-},
-{
-place = (99.71, 239.42);
-place = (99.71, 239.42);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (705.22, 239.93);
-place = (705.22, 239.93);
-type = Stem;
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(219,782,l),
-(285,715,ls),
-(292,708,o),
-(299,705,o),
-(306,705,cs),
-(332,707,o),
-(353,742,o),
-(330,760,c),
-(262,825,l),
-(328,891,l),
-(362,913,o),
-(310,969,o),
-(285,934,c),
-(219,868,l),
-(154,934,l),
-(131,969,o),
-(76,913,o),
-(111,891,c),
-(176,825,l),
-(111,760,ls),
-(103,752,o),
-(99,744,o),
-(99,737,cs),
-(101,715,o),
-(136,691,o),
-(154,715,c)
-);
-}
-);
-};
-layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
-shapes = (
-{
-pos = (0,745);
-ref = period;
-}
-);
-width = 489;
-},
-{
-background = {
-hints = (
-{
-horizontal = 1;
-place = (705, 240.15);
-place = (705, 240.15);
-type = Stem;
-},
-{
-place = (99.71, 239.42);
-place = (99.71, 239.42);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (705.22, 239.93);
-place = (705.22, 239.93);
-type = Stem;
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(219,782,l),
-(285,715,ls),
-(292,708,o),
-(299,705,o),
-(306,705,cs),
-(332,707,o),
-(353,742,o),
-(330,760,c),
-(262,825,l),
-(328,891,l),
-(362,913,o),
-(310,969,o),
-(285,934,c),
-(219,868,l),
-(154,934,l),
-(131,969,o),
-(76,913,o),
-(111,891,c),
-(176,825,l),
-(111,760,ls),
-(103,752,o),
-(99,744,o),
-(99,737,cs),
-(101,715,o),
-(136,691,o),
-(154,715,c)
-);
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-pos = (0,745);
-ref = period;
-}
-);
-width = 679;
-}
-);
-note = middot;
-unicode = 183;
-},
-{
 glyphname = periodcentered;
-kernLeft = anoteleia;
-kernRight = anoteleia;
-lastChange = "2023-09-14 08:14:20 +0000";
+lastChange = "2023-09-14 08:30:30 +0000";
 layers = (
 {
 anchors = (
