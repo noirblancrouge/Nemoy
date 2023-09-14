@@ -1368,1210 +1368,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[8] Nemoy-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + f
-
-	- f + i
-
-	- i + f
-
-	- f + l
-
-	- l + f
-
-	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.8115234375x (3710) [code: bad-hhea-range]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3or5
-
-	- Glyph name: comma	Contours detected: 2	Expected: 1
-
-	- Glyph name: one	Contours detected: 2	Expected: 1
-
-	- Glyph name: two	Contours detected: 2	Expected: 1
-
-	- Glyph name: three	Contours detected: 2	Expected: 1
-
-	- Glyph name: five	Contours detected: 2	Expected: 1
-
-	- Glyph name: seven	Contours detected: 2	Expected: 1
-
-	- Glyph name: eight	Contours detected: 4	Expected: 3
-
-	- Glyph name: semicolon	Contours detected: 3	Expected: 2
-
-	- Glyph name: question	Contours detected: 3	Expected: 2
-
-	- Glyph name: B	Contours detected: 4	Expected: 2or3
-
-	- Glyph name: E	Contours detected: 2	Expected: 1
-
-	- Glyph name: F	Contours detected: 2	Expected: 1
-
-	- Glyph name: G	Contours detected: 2	Expected: 1
-
-	- Glyph name: H	Contours detected: 2	Expected: 1
-
-	- Glyph name: J	Contours detected: 2	Expected: 1
-
-	- Glyph name: L	Contours detected: 2	Expected: 1
-
-	- Glyph name: M	Contours detected: 3	Expected: 1
-
-	- Glyph name: N	Contours detected: 2	Expected: 1
-
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
-	- Glyph name: R	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: S	Contours detected: 2	Expected: 1
-
-	- Glyph name: W	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: X	Contours detected: 2	Expected: 1
-
-	- Glyph name: Y	Contours detected: 2	Expected: 1
-
-	- Glyph name: Z	Contours detected: 2	Expected: 1
-
-	- Glyph name: grave	Contours detected: 2	Expected: 1
-
-	- Glyph name: b	Contours detected: 4	Expected: 2
-
-	- Glyph name: f	Contours detected: 2	Expected: 1
-
-	- Glyph name: h	Contours detected: 2	Expected: 1
-
-	- Glyph name: i	Contours detected: 1	Expected: 2
-
-	- Glyph name: l	Contours detected: 2	Expected: 1
-
-	- Glyph name: m	Contours detected: 3	Expected: 1
-
-	- Glyph name: n	Contours detected: 2	Expected: 1
-
-	- Glyph name: q	Contours detected: 3	Expected: 2
-
-	- Glyph name: r	Contours detected: 3	Expected: 1
-
-	- Glyph name: s	Contours detected: 2	Expected: 1
-
-	- Glyph name: w	Contours detected: 3	Expected: 1
-
-	- Glyph name: x	Contours detected: 2	Expected: 1
-
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: z	Contours detected: 2	Expected: 1
-
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: section	Contours detected: 5	Expected: 2
-
-	- Glyph name: registered	Contours detected: 5	Expected: 3or4
-
-	- Glyph name: uni00B2	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00B3	Contours detected: 2	Expected: 1
-
-	- Glyph name: acute	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00B9	Contours detected: 2	Expected: 1
-
-	- Glyph name: onequarter	Contours detected: 5	Expected: 3or4
-
-	- Glyph name: onehalf	Contours detected: 5	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 5	Expected: 3or4
-
-	- Glyph name: questiondown	Contours detected: 3	Expected: 2
-
-	- Glyph name: Agrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: Aacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: Acircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: AE	Contours detected: 4	Expected: 2
-
-	- Glyph name: Egrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: Eacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ecircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Edieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: Igrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: Iacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ntilde	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ograve	Contours detected: 4	Expected: 3
-
-	- Glyph name: Oacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ocircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ugrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ucircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Yacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
-	- Glyph name: agrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: aacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: acircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: egrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: eacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: igrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: iacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: icircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ntilde	Contours detected: 3	Expected: 2
-
-	- Glyph name: ograve	Contours detected: 4	Expected: 3
-
-	- Glyph name: oacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: ocircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: ugrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: uacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ucircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: yacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: Cacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: cacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ccircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ccircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: ccaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: dcaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Emacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ebreve	Contours detected: 3	Expected: 2
-
-	- Glyph name: Edotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eogonek	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: ecaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Gcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Gbreve	Contours detected: 3	Expected: 2
-
-	- Glyph name: Gdotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0122	Contours detected: 4	Expected: 2
-
-	- Glyph name: Hcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: hcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Hbar	Contours detected: 4	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 4	Expected: 1
-
-	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Jcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: jcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0136	Contours detected: 4	Expected: 2or3
-
-	- Glyph name: uni0137	Contours detected: 4	Expected: 2or3
-
-	- Glyph name: Lacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: lacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni013B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 4	Expected: 2
-
-	- Glyph name: Lcaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ldot	Contours detected: 3	Expected: 2
-
-	- Glyph name: ldot	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Nacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: nacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0145	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: napostrophe	Contours detected: 4	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 2	Expected: 1
-
-	- Glyph name: eng	Contours detected: 2	Expected: 1
-
-	- Glyph name: OE	Contours detected: 4	Expected: 2
-
-	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: Racute	Contours detected: 5	Expected: 3
-
-	- Glyph name: racute	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 5	Expected: 2
-
-	- Glyph name: Rcaron	Contours detected: 5	Expected: 3
-
-	- Glyph name: rcaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: Sacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: sacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Scircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: scircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Scedilla	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: scedilla	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Scaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: scaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: tcaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Wcircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: wcircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: Zacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: zacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: zdotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: zcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni019D	Contours detected: 2	Expected: 1
-
-	- Glyph name: Gcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4or5
-
-	- Glyph name: aringacute	Contours detected: 6	Expected: 4or5
-
-	- Glyph name: AEacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: aeacute	Contours detected: 6	Expected: 4
-
-	- Glyph name: Oslashacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: oslashacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni0218	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0232	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0233	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0272	Contours detected: 2	Expected: 1
-
-	- Glyph name: circumflex	Contours detected: 2	Expected: 1
-
-	- Glyph name: caron	Contours detected: 2	Expected: 1
-
-	- Glyph name: gravecomb	Contours detected: 2	Expected: 1
-
-	- Glyph name: acutecomb	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0302	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni030C	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0312	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1E08	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E14	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E1C	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E20	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E24	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E25	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E2A	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E2B	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E2E	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E2F	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E36	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E37	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lmacronbelow	Contours detected: 3	Expected: 2
-
-	- Glyph name: lmacronbelow	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E42	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E43	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E44	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E46	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
-
-	- Glyph name: Nmacronbelow	Contours detected: 3	Expected: 2
-
-	- Glyph name: nmacronbelow	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E4C	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E4D	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E50	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E5A	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E5B	Contours detected: 4	Expected: 2
-
-	- Glyph name: Rmacronbelow	Contours detected: 4	Expected: 3
-
-	- Glyph name: rmacronbelow	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E60	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E61	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E62	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E63	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E64	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E65	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E66	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E67	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E68	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E69	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E78	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E79	Contours detected: 4	Expected: 3
-
-	- Glyph name: Wgrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: wgrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: Wacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: wacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 5	Expected: 3
-
-	- Glyph name: wdieresis	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E8E	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E8F	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E92	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E93	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1EB8	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EBC	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1ECB	Contours detected: 2	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: ygrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1EF8	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
-
-	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: quoteright	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 5	Expected: 3or4
-
-	- Glyph name: trademark	Contours detected: 4	Expected: 2
-
-	- Glyph name: AE	Contours detected: 4	Expected: 2
-
-	- Glyph name: AEacute	Contours detected: 6	Expected: 3
-
-	- Glyph name: Aacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: Acircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: Agrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4or5
-
-	- Glyph name: B	Contours detected: 4	Expected: 2or3
-
-	- Glyph name: Cacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ccircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: E	Contours detected: 2	Expected: 1
-
-	- Glyph name: Eacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ebreve	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ecircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Edieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: Egrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eng	Contours detected: 2	Expected: 1
-
-	- Glyph name: Eogonek	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: F	Contours detected: 2	Expected: 1
-
-	- Glyph name: G	Contours detected: 2	Expected: 1
-
-	- Glyph name: Gbreve	Contours detected: 3	Expected: 2
-
-	- Glyph name: Gcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Gcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Gdotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: H	Contours detected: 2	Expected: 1
-
-	- Glyph name: Hbar	Contours detected: 4	Expected: 2
-
-	- Glyph name: Hcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Iacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Igrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: J	Contours detected: 2	Expected: 1
-
-	- Glyph name: Jcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: L	Contours detected: 2	Expected: 1
-
-	- Glyph name: Lacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Lcaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ldot	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: M	Contours detected: 3	Expected: 1
-
-	- Glyph name: N	Contours detected: 2	Expected: 1
-
-	- Glyph name: Nacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ntilde	Contours detected: 3	Expected: 2
-
-	- Glyph name: OE	Contours detected: 4	Expected: 2
-
-	- Glyph name: Oacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ocircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ograve	Contours detected: 4	Expected: 3
-
-	- Glyph name: Oslashacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: Q	Contours detected: 3	Expected: 2
-
-	- Glyph name: R	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Racute	Contours detected: 5	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 5	Expected: 3
-
-	- Glyph name: S	Contours detected: 2	Expected: 1
-
-	- Glyph name: Sacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Scaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Scircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ucircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: Ugrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: W	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: Wacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: Wcircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 5	Expected: 3
-
-	- Glyph name: Wgrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: X	Contours detected: 2	Expected: 1
-
-	- Glyph name: Y	Contours detected: 2	Expected: 1
-
-	- Glyph name: Yacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: Z	Contours detected: 2	Expected: 1
-
-	- Glyph name: Zacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 3	Expected: 2
-
-	- Glyph name: aacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: acircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: acute	Contours detected: 2	Expected: 1
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aeacute	Contours detected: 6	Expected: 4
-
-	- Glyph name: agrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: aringacute	Contours detected: 6	Expected: 4or5
-
-	- Glyph name: b	Contours detected: 4	Expected: 2
-
-	- Glyph name: cacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: caron	Contours detected: 2	Expected: 1
-
-	- Glyph name: ccaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: ccircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: circumflex	Contours detected: 2	Expected: 1
-
-	- Glyph name: comma	Contours detected: 2	Expected: 1
-
-	- Glyph name: dcaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3or5
-
-	- Glyph name: eacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: ecaron	Contours detected: 4	Expected: 3
-
-	- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: egrave	Contours detected: 4	Expected: 3
-
-	- Glyph name: eight	Contours detected: 4	Expected: 3
-
-	- Glyph name: eng	Contours detected: 2	Expected: 1
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: f	Contours detected: 2	Expected: 1
-
-	- Glyph name: five	Contours detected: 2	Expected: 1
-
-	- Glyph name: germandbls	Contours detected: 2	Expected: 1
-
-	- Glyph name: grave	Contours detected: 2	Expected: 1
-
-	- Glyph name: h	Contours detected: 2	Expected: 1
-
-	- Glyph name: hbar	Contours detected: 4	Expected: 1
-
-	- Glyph name: hcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: i	Contours detected: 1	Expected: 2
-
-	- Glyph name: iacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: icircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: igrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: jcircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: l	Contours detected: 2	Expected: 1
-
-	- Glyph name: lacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: lcaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: ldot	Contours detected: 3	Expected: 2
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: m	Contours detected: 3	Expected: 1
-
-	- Glyph name: n	Contours detected: 2	Expected: 1
-
-	- Glyph name: nacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: napostrophe	Contours detected: 4	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: ntilde	Contours detected: 3	Expected: 2
-
-	- Glyph name: oacute	Contours detected: 4	Expected: 3
-
-	- Glyph name: ocircumflex	Contours detected: 4	Expected: 3
-
-	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: ograve	Contours detected: 4	Expected: 3
-
-	- Glyph name: one	Contours detected: 2	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 5	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 5	Expected: 3or4
-
-	- Glyph name: oslashacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: q	Contours detected: 3	Expected: 2
-
-	- Glyph name: question	Contours detected: 3	Expected: 2
-
-	- Glyph name: questiondown	Contours detected: 3	Expected: 2
-
-	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
-
-	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
-
-	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
-
-	- Glyph name: quoteright	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
-
-	- Glyph name: r	Contours detected: 3	Expected: 1
-
-	- Glyph name: racute	Contours detected: 5	Expected: 2
-
-	- Glyph name: rcaron	Contours detected: 5	Expected: 2
-
-	- Glyph name: registered	Contours detected: 5	Expected: 3or4
-
-	- Glyph name: s	Contours detected: 2	Expected: 1
-
-	- Glyph name: sacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: scaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: scircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: section	Contours detected: 5	Expected: 2
-
-	- Glyph name: semicolon	Contours detected: 3	Expected: 2
-
-	- Glyph name: seven	Contours detected: 2	Expected: 1
-
-	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
-
-	- Glyph name: tcaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: three	Contours detected: 2	Expected: 1
-
-	- Glyph name: threequarters	Contours detected: 5	Expected: 3or4
-
-	- Glyph name: trademark	Contours detected: 4	Expected: 2
-
-	- Glyph name: two	Contours detected: 2	Expected: 1
-
-	- Glyph name: uacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ucircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ugrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0122	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0136	Contours detected: 4	Expected: 2or3
-
-	- Glyph name: uni0137	Contours detected: 4	Expected: 2or3
-
-	- Glyph name: uni013B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni013C	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0145	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0156	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni0157	Contours detected: 5	Expected: 2
-
-	- Glyph name: uni019D	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0218	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni0219	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni021A	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni021B	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0232	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0233	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0237	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0272	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0302	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni030C	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0312	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0326	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1E08	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E14	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E15	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E1C	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E20	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E24	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E25	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E2A	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E2B	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E2E	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E2F	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E36	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E37	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E42	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E43	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E44	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E46	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E4C	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E4D	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E50	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E5A	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E5B	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E60	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E61	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E62	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E63	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E64	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E65	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E66	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E67	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni1E68	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E69	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E78	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E79	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E8E	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E8F	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E92	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E93	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1EB8	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EBC	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1ECB	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni1EF8	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 5	Expected: 3or4
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: w	Contours detected: 3	Expected: 1
-
-	- Glyph name: wacute	Contours detected: 5	Expected: 2
-
-	- Glyph name: wcircumflex	Contours detected: 5	Expected: 2
-
-	- Glyph name: wdieresis	Contours detected: 5	Expected: 3
-
-	- Glyph name: wgrave	Contours detected: 5	Expected: 2
-
-	- Glyph name: x	Contours detected: 2	Expected: 1
-
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: yacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 4	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
-
-	- Glyph name: ygrave	Contours detected: 4	Expected: 2
-
-	- Glyph name: z	Contours detected: 2	Expected: 1
-
-	- Glyph name: zacute	Contours detected: 4	Expected: 2
-
-	- Glyph name: zcaron	Contours detected: 4	Expected: 2
-
-	- Glyph name: zdotaccent	Contours detected: 3	Expected: 2
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
-* ⚠ **WARN** tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* exclam (U+0021): X=199.0,Y=1537.0 (should be at cap-height 1538?)
-
-	* exclam (U+0021): X=259.0,Y=1537.0 (should be at cap-height 1538?)
-
-	* percent (U+0025): X=605.0,Y=2.0 (should be at baseline 0?)
-
-	* N (U+004E): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* P (U+0050): X=170.0,Y=-1.0 (should be at baseline 0?)
-
-	* P (U+0050): X=170.0,Y=-1.0 (should be at baseline 0?)
-
-	* n (U+006E): X=175.5,Y=1536.5 (should be at x-height 1538?)
-
-	* n (U+006E): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* p (U+0070): X=170.0,Y=-1.0 (should be at baseline 0?)
-
-	* p (U+0070): X=170.0,Y=-1.0 (should be at baseline 0?)
-
-	* sterling (U+00A3): X=462.0,Y=-2.0 (should be at baseline 0?)
-
-	* registered (U+00AE): X=591.0,Y=1537.0 (should be at cap-height 1538?)
-
-	* ordmasculine (U+00BA): X=269.5,Y=1537.0 (should be at cap-height 1538?)
-
-	* ordmasculine (U+00BA): X=580.5,Y=1537.0 (should be at cap-height 1538?)
-
-	* onequarter (U+00BC): X=361.0,Y=2.0 (should be at baseline 0?)
-
-	* onehalf (U+00BD): X=361.0,Y=2.0 (should be at baseline 0?)
-
-	* threequarters (U+00BE): X=481.0,Y=2.0 (should be at baseline 0?)
-
-	* Ntilde (U+00D1): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* ntilde (U+00F1): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* Eogonek (U+0118): X=1069.0,Y=-1.0 (should be at baseline 0?)
-
-	* eogonek (U+0119): X=1069.0,Y=-1.0 (should be at baseline 0?)
-
-	* Nacute (U+0143): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* nacute (U+0144): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* uni0145 (U+0145): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* uni0146 (U+0146): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* Ncaron (U+0147): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* ncaron (U+0148): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* napostrophe (U+0149): X=611.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* Eng (U+014A): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* eng (U+014B): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* Uogonek (U+0172): X=847.0,Y=-1.0 (should be at baseline 0?)
-
-	* uogonek (U+0173): X=847.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni019D (U+019D): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* uni01EA (U+01EA): X=1083.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni01EB (U+01EB): X=1083.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni0272 (U+0272): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* uni1E44 (U+1E44): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* uni1E45 (U+1E45): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* uni1E46 (U+1E46): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* uni1E47 (U+1E47): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* Nmacronbelow (U+1E48): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* nmacronbelow (U+1E49): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* perthousand (U+2030): X=605.0,Y=2.0 (should be at baseline 0?)
-
-	* fraction (U+2044): X=48.0,Y=2.0 (should be at baseline 0?)
-
-	* uni2116 (U+2116): X=1773.0,Y=1536.0 (should be at cap-height 1538?)
-
-	* uni2116 (U+2116): X=2234.5,Y=1536.0 (should be at cap-height 1538?)
-
-	* uni2116 (U+2116): X=175.5,Y=1536.5 (should be at cap-height 1538?)
-
-	* trademark (U+2122): X=847.0,Y=1540.0 (should be at cap-height 1538?)
-
-	* trademark (U+2122): X=1546.0,Y=1540.0 (should be at cap-height 1538?)
-
-	* uniE000 (U+E000): X=0.0,Y=1540.0 (should be at cap-height 1538?)
-
-	* uniE000 (U+E000): X=1540.0,Y=1540.0 (should be at cap-height 1538?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
 </div></details><br></div></details><details><summary><b>[9] Nemoy-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -5690,6 +4486,1210 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EBD (U+1EBD): L<<1158.0,568.0>--<347.0,570.0>>
 
 	* uni1EBD (U+1EBD): L<<690.0,778.0>--<1158.0,775.0>> [code: found-semi-vertical]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><br></div></details><details><summary><b>[8] Nemoy-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + i
+
+	- i + f
+
+	- f + l
+
+	- l + f
+
+	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.8115234375x (3710) [code: bad-hhea-range]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3or5
+
+	- Glyph name: comma	Contours detected: 2	Expected: 1
+
+	- Glyph name: one	Contours detected: 2	Expected: 1
+
+	- Glyph name: two	Contours detected: 2	Expected: 1
+
+	- Glyph name: three	Contours detected: 2	Expected: 1
+
+	- Glyph name: five	Contours detected: 2	Expected: 1
+
+	- Glyph name: seven	Contours detected: 2	Expected: 1
+
+	- Glyph name: eight	Contours detected: 4	Expected: 3
+
+	- Glyph name: semicolon	Contours detected: 3	Expected: 2
+
+	- Glyph name: question	Contours detected: 3	Expected: 2
+
+	- Glyph name: B	Contours detected: 4	Expected: 2or3
+
+	- Glyph name: E	Contours detected: 2	Expected: 1
+
+	- Glyph name: F	Contours detected: 2	Expected: 1
+
+	- Glyph name: G	Contours detected: 2	Expected: 1
+
+	- Glyph name: H	Contours detected: 2	Expected: 1
+
+	- Glyph name: J	Contours detected: 2	Expected: 1
+
+	- Glyph name: L	Contours detected: 2	Expected: 1
+
+	- Glyph name: M	Contours detected: 3	Expected: 1
+
+	- Glyph name: N	Contours detected: 2	Expected: 1
+
+	- Glyph name: Q	Contours detected: 3	Expected: 2
+
+	- Glyph name: R	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: S	Contours detected: 2	Expected: 1
+
+	- Glyph name: W	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: X	Contours detected: 2	Expected: 1
+
+	- Glyph name: Y	Contours detected: 2	Expected: 1
+
+	- Glyph name: Z	Contours detected: 2	Expected: 1
+
+	- Glyph name: grave	Contours detected: 2	Expected: 1
+
+	- Glyph name: b	Contours detected: 4	Expected: 2
+
+	- Glyph name: f	Contours detected: 2	Expected: 1
+
+	- Glyph name: h	Contours detected: 2	Expected: 1
+
+	- Glyph name: i	Contours detected: 1	Expected: 2
+
+	- Glyph name: l	Contours detected: 2	Expected: 1
+
+	- Glyph name: m	Contours detected: 3	Expected: 1
+
+	- Glyph name: n	Contours detected: 2	Expected: 1
+
+	- Glyph name: q	Contours detected: 3	Expected: 2
+
+	- Glyph name: r	Contours detected: 3	Expected: 1
+
+	- Glyph name: s	Contours detected: 2	Expected: 1
+
+	- Glyph name: w	Contours detected: 3	Expected: 1
+
+	- Glyph name: x	Contours detected: 2	Expected: 1
+
+	- Glyph name: y	Contours detected: 2	Expected: 1
+
+	- Glyph name: z	Contours detected: 2	Expected: 1
+
+	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: section	Contours detected: 5	Expected: 2
+
+	- Glyph name: registered	Contours detected: 5	Expected: 3or4
+
+	- Glyph name: uni00B2	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00B3	Contours detected: 2	Expected: 1
+
+	- Glyph name: acute	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00B9	Contours detected: 2	Expected: 1
+
+	- Glyph name: onequarter	Contours detected: 5	Expected: 3or4
+
+	- Glyph name: onehalf	Contours detected: 5	Expected: 3
+
+	- Glyph name: threequarters	Contours detected: 5	Expected: 3or4
+
+	- Glyph name: questiondown	Contours detected: 3	Expected: 2
+
+	- Glyph name: Agrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: Aacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: Acircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: AE	Contours detected: 4	Expected: 2
+
+	- Glyph name: Egrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: Eacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ecircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Edieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ntilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ograve	Contours detected: 4	Expected: 3
+
+	- Glyph name: Oacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ocircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ugrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ucircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Yacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: germandbls	Contours detected: 2	Expected: 1
+
+	- Glyph name: agrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: aacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: acircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: egrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: eacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: ntilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: ograve	Contours detected: 4	Expected: 3
+
+	- Glyph name: oacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: ocircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: ugrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: uacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: ucircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: yacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Cacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ccircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: ccircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: dcaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: Emacron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ebreve	Contours detected: 3	Expected: 2
+
+	- Glyph name: Edotaccent	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eogonek	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: Gcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Gbreve	Contours detected: 3	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0122	Contours detected: 4	Expected: 2
+
+	- Glyph name: Hcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: hcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Hbar	Contours detected: 4	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 4	Expected: 1
+
+	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Jcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: jcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0136	Contours detected: 4	Expected: 2or3
+
+	- Glyph name: uni0137	Contours detected: 4	Expected: 2or3
+
+	- Glyph name: Lacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: lacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni013B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 4	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ldot	Contours detected: 3	Expected: 2
+
+	- Glyph name: ldot	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: nacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: napostrophe	Contours detected: 4	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 2	Expected: 1
+
+	- Glyph name: eng	Contours detected: 2	Expected: 1
+
+	- Glyph name: OE	Contours detected: 4	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: Racute	Contours detected: 5	Expected: 3
+
+	- Glyph name: racute	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 5	Expected: 2
+
+	- Glyph name: Rcaron	Contours detected: 5	Expected: 3
+
+	- Glyph name: rcaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: Sacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Scircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: scircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: scedilla	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Scaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Wcircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: Zacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 3	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 3	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni019D	Contours detected: 2	Expected: 1
+
+	- Glyph name: Gcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4or5
+
+	- Glyph name: aringacute	Contours detected: 6	Expected: 4or5
+
+	- Glyph name: AEacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: aeacute	Contours detected: 6	Expected: 4
+
+	- Glyph name: Oslashacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: oslashacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni0218	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0232	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0233	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0272	Contours detected: 2	Expected: 1
+
+	- Glyph name: circumflex	Contours detected: 2	Expected: 1
+
+	- Glyph name: caron	Contours detected: 2	Expected: 1
+
+	- Glyph name: gravecomb	Contours detected: 2	Expected: 1
+
+	- Glyph name: acutecomb	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni030C	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1E08	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E14	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E15	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E16	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E17	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E1C	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E20	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E24	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E25	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E2A	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E2B	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E2E	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E2F	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E36	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E37	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lmacronbelow	Contours detected: 3	Expected: 2
+
+	- Glyph name: lmacronbelow	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E42	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E43	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E44	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E46	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
+
+	- Glyph name: Nmacronbelow	Contours detected: 3	Expected: 2
+
+	- Glyph name: nmacronbelow	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E4C	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E4D	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E50	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E51	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E52	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E53	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E5A	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E5B	Contours detected: 4	Expected: 2
+
+	- Glyph name: Rmacronbelow	Contours detected: 4	Expected: 3
+
+	- Glyph name: rmacronbelow	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E60	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E61	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E62	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E63	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E64	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E65	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E66	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E67	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E68	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E69	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E78	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E79	Contours detected: 4	Expected: 3
+
+	- Glyph name: Wgrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: wgrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: Wacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: wacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 5	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E8E	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E8F	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E92	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E93	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EB8	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EBC	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1ECB	Contours detected: 2	Expected: 3
+
+	- Glyph name: Ygrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1EF8	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
+
+	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: quoteright	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni2116	Contours detected: 5	Expected: 3or4
+
+	- Glyph name: trademark	Contours detected: 4	Expected: 2
+
+	- Glyph name: AE	Contours detected: 4	Expected: 2
+
+	- Glyph name: AEacute	Contours detected: 6	Expected: 3
+
+	- Glyph name: Aacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: Acircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: Agrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4or5
+
+	- Glyph name: B	Contours detected: 4	Expected: 2or3
+
+	- Glyph name: Cacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ccircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: E	Contours detected: 2	Expected: 1
+
+	- Glyph name: Eacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ebreve	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ecircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Edieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 3	Expected: 2
+
+	- Glyph name: Egrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 2	Expected: 1
+
+	- Glyph name: Eogonek	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: F	Contours detected: 2	Expected: 1
+
+	- Glyph name: G	Contours detected: 2	Expected: 1
+
+	- Glyph name: Gbreve	Contours detected: 3	Expected: 2
+
+	- Glyph name: Gcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Gcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 3	Expected: 2
+
+	- Glyph name: H	Contours detected: 2	Expected: 1
+
+	- Glyph name: Hbar	Contours detected: 4	Expected: 2
+
+	- Glyph name: Hcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: J	Contours detected: 2	Expected: 1
+
+	- Glyph name: Jcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: L	Contours detected: 2	Expected: 1
+
+	- Glyph name: Lacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ldot	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: M	Contours detected: 3	Expected: 1
+
+	- Glyph name: N	Contours detected: 2	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ntilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: OE	Contours detected: 4	Expected: 2
+
+	- Glyph name: Oacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ocircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ograve	Contours detected: 4	Expected: 3
+
+	- Glyph name: Oslashacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: Q	Contours detected: 3	Expected: 2
+
+	- Glyph name: R	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Racute	Contours detected: 5	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 5	Expected: 3
+
+	- Glyph name: S	Contours detected: 2	Expected: 1
+
+	- Glyph name: Sacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Scaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Scircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ucircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: Ugrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: W	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: Wacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: Wcircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 5	Expected: 3
+
+	- Glyph name: Wgrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: X	Contours detected: 2	Expected: 1
+
+	- Glyph name: Y	Contours detected: 2	Expected: 1
+
+	- Glyph name: Yacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: Ygrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: Z	Contours detected: 2	Expected: 1
+
+	- Glyph name: Zacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 3	Expected: 2
+
+	- Glyph name: aacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: acircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: acute	Contours detected: 2	Expected: 1
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aeacute	Contours detected: 6	Expected: 4
+
+	- Glyph name: agrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: aringacute	Contours detected: 6	Expected: 4or5
+
+	- Glyph name: b	Contours detected: 4	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: caron	Contours detected: 2	Expected: 1
+
+	- Glyph name: ccaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: ccircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: circumflex	Contours detected: 2	Expected: 1
+
+	- Glyph name: comma	Contours detected: 2	Expected: 1
+
+	- Glyph name: dcaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3or5
+
+	- Glyph name: eacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: ecaron	Contours detected: 4	Expected: 3
+
+	- Glyph name: ecircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: egrave	Contours detected: 4	Expected: 3
+
+	- Glyph name: eight	Contours detected: 4	Expected: 3
+
+	- Glyph name: eng	Contours detected: 2	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: f	Contours detected: 2	Expected: 1
+
+	- Glyph name: five	Contours detected: 2	Expected: 1
+
+	- Glyph name: germandbls	Contours detected: 2	Expected: 1
+
+	- Glyph name: grave	Contours detected: 2	Expected: 1
+
+	- Glyph name: h	Contours detected: 2	Expected: 1
+
+	- Glyph name: hbar	Contours detected: 4	Expected: 1
+
+	- Glyph name: hcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: i	Contours detected: 1	Expected: 2
+
+	- Glyph name: iacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: icircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: igrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: jcircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: l	Contours detected: 2	Expected: 1
+
+	- Glyph name: lacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: ldot	Contours detected: 3	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: m	Contours detected: 3	Expected: 1
+
+	- Glyph name: n	Contours detected: 2	Expected: 1
+
+	- Glyph name: nacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: napostrophe	Contours detected: 4	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: ntilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: oacute	Contours detected: 4	Expected: 3
+
+	- Glyph name: ocircumflex	Contours detected: 4	Expected: 3
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: ograve	Contours detected: 4	Expected: 3
+
+	- Glyph name: one	Contours detected: 2	Expected: 1
+
+	- Glyph name: onehalf	Contours detected: 5	Expected: 3
+
+	- Glyph name: onequarter	Contours detected: 5	Expected: 3or4
+
+	- Glyph name: oslashacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: q	Contours detected: 3	Expected: 2
+
+	- Glyph name: question	Contours detected: 3	Expected: 2
+
+	- Glyph name: questiondown	Contours detected: 3	Expected: 2
+
+	- Glyph name: quotedblbase	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblleft	Contours detected: 4	Expected: 2
+
+	- Glyph name: quotedblright	Contours detected: 4	Expected: 2
+
+	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
+
+	- Glyph name: quoteright	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
+
+	- Glyph name: r	Contours detected: 3	Expected: 1
+
+	- Glyph name: racute	Contours detected: 5	Expected: 2
+
+	- Glyph name: rcaron	Contours detected: 5	Expected: 2
+
+	- Glyph name: registered	Contours detected: 5	Expected: 3or4
+
+	- Glyph name: s	Contours detected: 2	Expected: 1
+
+	- Glyph name: sacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: scircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: section	Contours detected: 5	Expected: 2
+
+	- Glyph name: semicolon	Contours detected: 3	Expected: 2
+
+	- Glyph name: seven	Contours detected: 2	Expected: 1
+
+	- Glyph name: sterling	Contours detected: 3	Expected: 1or2
+
+	- Glyph name: tcaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: three	Contours detected: 2	Expected: 1
+
+	- Glyph name: threequarters	Contours detected: 5	Expected: 3or4
+
+	- Glyph name: trademark	Contours detected: 4	Expected: 2
+
+	- Glyph name: two	Contours detected: 2	Expected: 1
+
+	- Glyph name: uacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: ucircumflex	Contours detected: 3	Expected: 2
+
+	- Glyph name: ugrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0122	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0136	Contours detected: 4	Expected: 2or3
+
+	- Glyph name: uni0137	Contours detected: 4	Expected: 2or3
+
+	- Glyph name: uni013B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni019D	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0218	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0232	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0233	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0272	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni030C	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1E08	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E14	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E15	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E16	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E17	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E1C	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E20	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E24	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E25	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E2A	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E2B	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E2E	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E2F	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E36	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E37	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E42	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E43	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E44	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E46	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E4C	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E4D	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E50	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E51	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E52	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E53	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E5A	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E5B	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni1E60	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E61	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E62	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E63	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E64	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E65	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E66	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E67	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E68	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E69	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E78	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E79	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E8E	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E8F	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E92	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E93	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1EB8	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EBC	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1ECB	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni1EF8	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni2116	Contours detected: 5	Expected: 3or4
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: w	Contours detected: 3	Expected: 1
+
+	- Glyph name: wacute	Contours detected: 5	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 5	Expected: 2
+
+	- Glyph name: wdieresis	Contours detected: 5	Expected: 3
+
+	- Glyph name: wgrave	Contours detected: 5	Expected: 2
+
+	- Glyph name: x	Contours detected: 2	Expected: 1
+
+	- Glyph name: y	Contours detected: 2	Expected: 1
+
+	- Glyph name: yacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 4	Expected: 2
+
+	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
+
+	- Glyph name: ygrave	Contours detected: 4	Expected: 2
+
+	- Glyph name: z	Contours detected: 2	Expected: 1
+
+	- Glyph name: zacute	Contours detected: 4	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 4	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 3	Expected: 2
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
+
+
+* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
+* ⚠ **WARN** tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* exclam (U+0021): X=199.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* exclam (U+0021): X=259.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* percent (U+0025): X=605.0,Y=2.0 (should be at baseline 0?)
+
+	* N (U+004E): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* P (U+0050): X=170.0,Y=-1.0 (should be at baseline 0?)
+
+	* P (U+0050): X=170.0,Y=-1.0 (should be at baseline 0?)
+
+	* n (U+006E): X=175.5,Y=1536.5 (should be at x-height 1538?)
+
+	* n (U+006E): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* p (U+0070): X=170.0,Y=-1.0 (should be at baseline 0?)
+
+	* p (U+0070): X=170.0,Y=-1.0 (should be at baseline 0?)
+
+	* sterling (U+00A3): X=462.0,Y=-2.0 (should be at baseline 0?)
+
+	* registered (U+00AE): X=591.0,Y=1537.0 (should be at cap-height 1538?)
+
+	* ordmasculine (U+00BA): X=269.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* ordmasculine (U+00BA): X=580.5,Y=1537.0 (should be at cap-height 1538?)
+
+	* onequarter (U+00BC): X=361.0,Y=2.0 (should be at baseline 0?)
+
+	* onehalf (U+00BD): X=361.0,Y=2.0 (should be at baseline 0?)
+
+	* threequarters (U+00BE): X=481.0,Y=2.0 (should be at baseline 0?)
+
+	* Ntilde (U+00D1): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* ntilde (U+00F1): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* Eogonek (U+0118): X=1069.0,Y=-1.0 (should be at baseline 0?)
+
+	* eogonek (U+0119): X=1069.0,Y=-1.0 (should be at baseline 0?)
+
+	* Nacute (U+0143): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* nacute (U+0144): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni0145 (U+0145): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni0146 (U+0146): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* Ncaron (U+0147): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* ncaron (U+0148): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* napostrophe (U+0149): X=611.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* Eng (U+014A): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* eng (U+014B): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* Uogonek (U+0172): X=847.0,Y=-1.0 (should be at baseline 0?)
+
+	* uogonek (U+0173): X=847.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni019D (U+019D): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni01EA (U+01EA): X=1083.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni01EB (U+01EB): X=1083.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0272 (U+0272): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni1E44 (U+1E44): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni1E45 (U+1E45): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni1E46 (U+1E46): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* uni1E47 (U+1E47): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* Nmacronbelow (U+1E48): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* nmacronbelow (U+1E49): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* perthousand (U+2030): X=605.0,Y=2.0 (should be at baseline 0?)
+
+	* fraction (U+2044): X=48.0,Y=2.0 (should be at baseline 0?)
+
+	* uni2116 (U+2116): X=1773.0,Y=1536.0 (should be at cap-height 1538?)
+
+	* uni2116 (U+2116): X=2234.5,Y=1536.0 (should be at cap-height 1538?)
+
+	* uni2116 (U+2116): X=175.5,Y=1536.5 (should be at cap-height 1538?)
+
+	* trademark (U+2122): X=847.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* trademark (U+2122): X=1546.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uniE000 (U+E000): X=0.0,Y=1540.0 (should be at cap-height 1538?)
+
+	* uniE000 (U+E000): X=1540.0,Y=1540.0 (should be at cap-height 1538?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
