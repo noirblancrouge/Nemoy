@@ -1,5 +1,18 @@
 # Nemoy
 
+[![][Fontbakery]](http://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
+[![][Universal]](http://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
+[![][GF Profile]](http://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](http://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
+[![][Shaping]](http://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
+
+[Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/fontbakery/overall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/fontbakery/GoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/fontbakery/OutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/fontbakery/ShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/fontbakery/Universal.json
+
+
 ![Cover](https://raw.githubusercontent.com/noirblancrouge/Nemoy/master/documentation/images/nemoy.jpg)
 
 Nemoy is a geometric display font family. It comes in five weights, from Light to Heavy, contains a full glyphs set, including multilingual support, openType features and also a variable font version.
