@@ -1,6 +1,9 @@
 {
-.appVersion = "3218";
+.appVersion = "3219";
 .formatVersion = 3;
+DisplayStrings = (
+"Ű"
+);
 axes = (
 {
 name = Weight;
@@ -13220,7 +13223,7 @@ unicode = 210;
 glyphname = Ohungarumlaut;
 kernLeft = O;
 kernRight = O;
-lastChange = "2023-09-15 13:26:37 +0000";
+lastChange = "2023-09-29 14:40:46 +0000";
 layers = (
 {
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
@@ -13229,7 +13232,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (236,198);
+pos = (256,198);
 ref = hungarumlautcomb;
 }
 );
@@ -18794,7 +18797,7 @@ unicode = 217;
 glyphname = Uhungarumlaut;
 kernLeft = H;
 kernRight = H;
-lastChange = "2023-09-15 13:26:37 +0000";
+lastChange = "2023-09-29 14:40:46 +0000";
 layers = (
 {
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
@@ -18803,7 +18806,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (132,198);
+pos = (152,198);
 ref = hungarumlautcomb;
 }
 );
@@ -33879,7 +33882,7 @@ unicode = 242;
 glyphname = ohungarumlaut;
 kernLeft = O;
 kernRight = O;
-lastChange = "2023-09-15 13:26:37 +0000";
+lastChange = "2023-09-29 14:40:46 +0000";
 layers = (
 {
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
@@ -33888,7 +33891,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (236,198);
+pos = (256,198);
 ref = hungarumlautcomb;
 }
 );
@@ -38927,7 +38930,7 @@ unicode = 249;
 glyphname = uhungarumlaut;
 kernLeft = H;
 kernRight = H;
-lastChange = "2023-09-15 13:26:37 +0000";
+lastChange = "2023-09-29 14:40:46 +0000";
 layers = (
 {
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
@@ -38936,7 +38939,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (132,198);
+pos = (152,198);
 ref = hungarumlautcomb;
 }
 );
@@ -70147,17 +70150,17 @@ unicode = 769;
 },
 {
 glyphname = hungarumlautcomb;
-lastChange = "2023-09-15 13:26:37 +0000";
+lastChange = "2023-09-29 14:41:11 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (203,553);
+pos = (183,553);
 },
 {
 name = top;
-pos = (203,751);
+pos = (183,751);
 }
 );
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
@@ -70166,11 +70169,11 @@ shapes = (
 ref = caroncomb.alt;
 },
 {
-pos = (102,0);
+pos = (199,0);
 ref = caroncomb.alt;
 }
 );
-width = 306;
+width = 403;
 },
 {
 anchors = (
@@ -71920,7 +71923,7 @@ unicode = 180;
 },
 {
 glyphname = hungarumlaut;
-lastChange = "2023-09-15 13:26:37 +0000";
+lastChange = "2023-09-29 14:41:11 +0000";
 layers = (
 {
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
@@ -71930,7 +71933,7 @@ alignment = 1;
 ref = hungarumlautcomb;
 }
 );
-width = 306;
+width = 403;
 },
 {
 layerId = m004;
