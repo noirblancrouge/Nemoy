@@ -1,5 +1,5 @@
 {
-.appVersion = "3223";
+.appVersion = "3228";
 .formatVersion = 3;
 axes = (
 {
@@ -12317,7 +12317,7 @@ unicode = 86;
 glyphname = W;
 kernLeft = H;
 kernRight = H;
-lastChange = "2023-10-27 14:47:39 +0000";
+lastChange = "2023-12-14 15:17:40 +0000";
 layers = (
 {
 anchors = (
@@ -12354,7 +12354,7 @@ pos = (381,660);
 layerId = m004;
 shapes = (
 {
-pos = (0,751);
+pos = (0,660);
 ref = M;
 scale = (1,-1);
 }
@@ -23985,7 +23985,7 @@ unicode = 118;
 glyphname = w;
 kernLeft = H;
 kernRight = H;
-lastChange = "2023-10-27 14:47:39 +0000";
+lastChange = "2023-12-14 15:17:43 +0000";
 layers = (
 {
 anchors = (
@@ -24022,7 +24022,7 @@ pos = (381,660);
 layerId = m004;
 shapes = (
 {
-pos = (0,751);
+pos = (0,660);
 ref = M;
 scale = (1,-1);
 }
@@ -30284,7 +30284,7 @@ width = 275;
 glyphname = two.dnom;
 kernLeft = two.dnom;
 kernRight = two.dnom;
-lastChange = "2023-10-27 14:46:22 +0000";
+lastChange = "2023-12-14 15:17:50 +0000";
 layers = (
 {
 layerId = "12AF635E-66FE-4C90-B49C-8787585F2B73";
@@ -30304,7 +30304,7 @@ ref = two;
 scale = (0.6061,0.6061);
 }
 );
-width = 380;
+width = 379;
 }
 );
 note = two.dnom;
@@ -30333,7 +30333,7 @@ ref = three;
 scale = (0.6061,0.6061);
 }
 );
-width = 331;
+width = 332;
 }
 );
 },
@@ -30619,7 +30619,7 @@ pos = (0,170);
 ref = two.dnom;
 }
 );
-width = 380;
+width = 379;
 }
 );
 },
@@ -30647,7 +30647,7 @@ pos = (0,170);
 ref = three.dnom;
 }
 );
-width = 331;
+width = 332;
 }
 );
 note = three.numr;
@@ -31254,7 +31254,7 @@ shapes = (
 ref = two.numr;
 }
 );
-width = 380;
+width = 379;
 }
 );
 metricLeft = two;
@@ -31281,7 +31281,7 @@ shapes = (
 ref = three.numr;
 }
 );
-width = 331;
+width = 332;
 }
 );
 metricLeft = three;
