@@ -1,0 +1,271 @@
+# buildVariable: Build a variable font from a source file
+rule buildVariable
+  command = /home/runner/work/Nemoy/Nemoy/venv/bin/python3 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o variable $
+      $fontmake_type $in $args $stamp
+  description = buildVariable
+
+# fix: Run gftools-fix
+rule fix
+  command = /home/runner/work/Nemoy/Nemoy/venv/bin/python3 -m $
+      gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# buildStat: Build a STAT table from one or more source files
+rule buildSTAT-operation
+  command = gftools-gen-stat --out $tempdir $args -- $in && mv $finalfile $
+      $out $stamp
+rule buildSTAT-postprocess
+  command = gftools-gen-stat --inplace $args -- $in $stamp
+
+# compress: Compress to webfont
+rule compress
+  command = /home/runner/work/Nemoy/Nemoy/venv/bin/python3 -m $
+      gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $in $
+      $stamp
+  description = compress
+
+# instantiateUfo: Create instance UFOs from a Glyphs or designspace file
+rule instantiateUfo
+  command = /home/runner/work/Nemoy/Nemoy/venv/bin/python3 -m $
+      gftools.builder.jobrunner fontmake -i "$instance_name" -o ufo $
+      $fontmake_type $in $args $stamp
+  description = instantiateUfo
+
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = /home/runner/work/Nemoy/Nemoy/venv/bin/python3 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = /home/runner/work/Nemoy/Nemoy/venv/bin/python3 -m $
+      gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# buildOTF: Build a OTF from a source file
+rule buildOTF
+  command = /home/runner/work/Nemoy/Nemoy/venv/bin/python3 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o otf $
+      $fontmake_type $in $args $stamp
+  description = buildOTF
+
+# copy: Copy a file
+rule copy
+  command = /home/runner/work/Nemoy/Nemoy/venv/bin/python3 -m $
+      gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating /tmp/tmpfmqqcdpd
+build /tmp/tmpfmqqcdpd: buildVariable Nemoy.glyphs
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+# Generating instance_ufos/Nemoy-Light.ufo.json
+build instance_ufos/Nemoy-Light.ufo.json: instantiateUfo Nemoy.glyphs
+  operation = instantiateUfo
+  instance_name = Nemoy Light
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Nemoy-Regular.ufo.json
+build instance_ufos/Nemoy-Regular.ufo.json: instantiateUfo Nemoy.glyphs
+  operation = instantiateUfo
+  instance_name = Nemoy Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Nemoy-Medium.ufo.json
+build instance_ufos/Nemoy-Medium.ufo.json: instantiateUfo Nemoy.glyphs
+  operation = instantiateUfo
+  instance_name = Nemoy Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Nemoy-Bold.ufo.json
+build instance_ufos/Nemoy-Bold.ufo.json: instantiateUfo Nemoy.glyphs
+  operation = instantiateUfo
+  instance_name = Nemoy Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Nemoy-Black.ufo.json
+build instance_ufos/Nemoy-Black.ufo.json: instantiateUfo Nemoy.glyphs
+  operation = instantiateUfo
+  instance_name = Nemoy Black
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Postprocessing  with BuildSTAT
+build /tmp/tmppytxgvc9.buildStatstamp: buildSTAT-postprocess $
+    ../fonts/variable/Nemoy[wght].ttf
+  stamp =  && touch /tmp/tmppytxgvc9.buildStatstamp
+  postprocess = buildStat
+# Generating ../fonts/webfonts/Nemoy[wght].woff2
+build ../fonts/webfonts/Nemoy[wght].woff2: compress $
+    ../fonts/variable/Nemoy[wght].ttf
+  operation = compress
+# Generating ../fonts/webfonts/Nemoy-Light.woff2
+build ../fonts/webfonts/Nemoy-Light.woff2: compress $
+    ../fonts/ttf/Nemoy-Light.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Nemoy-Regular.woff2
+build ../fonts/webfonts/Nemoy-Regular.woff2: compress $
+    ../fonts/ttf/Nemoy-Regular.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Nemoy-Medium.woff2
+build ../fonts/webfonts/Nemoy-Medium.woff2: compress $
+    ../fonts/ttf/Nemoy-Medium.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Nemoy-Bold.woff2
+build ../fonts/webfonts/Nemoy-Bold.woff2: compress ../fonts/ttf/Nemoy-Bold.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Nemoy-Black.woff2
+build ../fonts/webfonts/Nemoy-Black.woff2: compress $
+    ../fonts/ttf/Nemoy-Black.ttf
+  operation = compress
+# Generating ../fonts/variable/Nemoy[wght].ttf
+build ../fonts/variable/Nemoy[wght].ttf: fix /tmp/tmpfmqqcdpd
+  operation = fix
+  args = 
+# Generating /tmp/tmp8rcuzpe8
+build /tmp/tmp8rcuzpe8: buildTTF instance_ufos/Nemoy-Light.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmpkga273no
+build /tmp/tmpkga273no: buildOTF instance_ufos/Nemoy-Light.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmpykfpysn9
+build /tmp/tmpykfpysn9: autohint /tmp/tmp8rcuzpe8
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Nemoy-Light.ttf
+build ../fonts/ttf/Nemoy-Light.ttf: fix /tmp/tmpykfpysn9
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Nemoy-Light.otf
+build ../fonts/otf/Nemoy-Light.otf: fix /tmp/tmpkga273no
+  operation = fix
+  args = 
+# Generating /tmp/tmpx0jxamnw
+build /tmp/tmpx0jxamnw: buildTTF instance_ufos/Nemoy-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmphxi1qef4
+build /tmp/tmphxi1qef4: buildOTF instance_ufos/Nemoy-Regular.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmphcud34lj
+build /tmp/tmphcud34lj: autohint /tmp/tmpx0jxamnw
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Nemoy-Regular.ttf
+build ../fonts/ttf/Nemoy-Regular.ttf: fix /tmp/tmphcud34lj
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Nemoy-Regular.otf
+build ../fonts/otf/Nemoy-Regular.otf: fix /tmp/tmphxi1qef4
+  operation = fix
+  args = 
+# Generating /tmp/tmpgf67okir
+build /tmp/tmpgf67okir: buildTTF instance_ufos/Nemoy-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmpu_djuj2a
+build /tmp/tmpu_djuj2a: buildOTF instance_ufos/Nemoy-Medium.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmpgds961qt
+build /tmp/tmpgds961qt: autohint /tmp/tmpgf67okir
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Nemoy-Medium.ttf
+build ../fonts/ttf/Nemoy-Medium.ttf: fix /tmp/tmpgds961qt
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Nemoy-Medium.otf
+build ../fonts/otf/Nemoy-Medium.otf: fix /tmp/tmpu_djuj2a
+  operation = fix
+  args = 
+# Generating /tmp/tmpcuj0dret
+build /tmp/tmpcuj0dret: buildTTF instance_ufos/Nemoy-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmp5vrwch0u
+build /tmp/tmp5vrwch0u: buildOTF instance_ufos/Nemoy-Bold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmpyovnt4v7
+build /tmp/tmpyovnt4v7: autohint /tmp/tmpcuj0dret
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Nemoy-Bold.ttf
+build ../fonts/ttf/Nemoy-Bold.ttf: fix /tmp/tmpyovnt4v7
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Nemoy-Bold.otf
+build ../fonts/otf/Nemoy-Bold.otf: fix /tmp/tmp5vrwch0u
+  operation = fix
+  args = 
+# Generating /tmp/tmpk34g0ebt
+build /tmp/tmpk34g0ebt: buildTTF instance_ufos/Nemoy-Black.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmpbgswf2i6
+build /tmp/tmpbgswf2i6: buildOTF instance_ufos/Nemoy-Black.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmprzxycz0h
+build /tmp/tmprzxycz0h: autohint /tmp/tmpk34g0ebt
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Nemoy-Black.ttf
+build ../fonts/ttf/Nemoy-Black.ttf: fix /tmp/tmprzxycz0h
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Nemoy-Black.otf
+build ../fonts/otf/Nemoy-Black.otf: fix /tmp/tmpbgswf2i6
+  operation = fix
+  args = 
+default /tmp/tmppytxgvc9.buildStatstamp ../fonts/webfonts/Nemoy[wght].woff2 $
+    ../fonts/webfonts/Nemoy-Light.woff2 $
+    ../fonts/webfonts/Nemoy-Regular.woff2 $
+    ../fonts/webfonts/Nemoy-Medium.woff2 ../fonts/webfonts/Nemoy-Bold.woff2 $
+    ../fonts/webfonts/Nemoy-Black.woff2 ../fonts/otf/Nemoy-Light.otf $
+    ../fonts/otf/Nemoy-Regular.otf ../fonts/otf/Nemoy-Medium.otf $
+    ../fonts/otf/Nemoy-Bold.otf ../fonts/otf/Nemoy-Black.otf
