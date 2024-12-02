@@ -3,7 +3,7 @@
 [![][Fontbakery]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
 [![][Universal]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
 [![][GF Profile]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
+[![][Outline Checks]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
 [![][Shaping]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
 
 [Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/badges/overall.json
