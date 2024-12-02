@@ -49,20 +49,20 @@ jobs:
     - name: proof
       run: make proof
     - name: setup site
-      run: cp scripts/index.html out/index.html
+      run: cp scripts/index.html docs/index.html
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       if: ${{ github.ref == 'refs/heads/main' }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out
+        publish_dir: ./docs
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
       with:
         name: ${{ env.ZIP_NAME }}
         path: |
           fonts
-          out
+          docs
     - name: Commit files  # transfer the new html files back into the repository
       run: |
         git config --local user.name  ${{ github.actor }}        
@@ -106,7 +106,7 @@ jobs:
       - name: Copy OFL.txt to artefact directory
         run: cp OFL.txt ${{ env.ZIP_NAME }}/OFL.txt
       - name: Remove proof/fontbakery stuff from release
-        run: rm -rf ${{ env.ZIP_NAME }}/out
+        run: rm -rf ${{ env.ZIP_NAME }}/docs
       - name: gen release file name
         shell: bash
         run: echo "RELEASE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-${{github.ref_name}}" >> $GITHUB_ENV
