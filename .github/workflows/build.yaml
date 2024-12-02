@@ -29,18 +29,17 @@ jobs:
       # Set the archive name to repo name + "-assets" e.g "MavenPro-assets"
       run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
 
-    # If a new release is cut, use the release tag to auto-bump the source files
-    # - name: Bump release
-    #   if: github.event_name == 'release'
-    #   run: |
-    #     . venv/bin/activate
-    #     SRCS=$(yq e ".sources[]" sources/config.yaml)
-    #     TAG_NAME=${GITHUB_REF/refs\/tags\//}
-    #     echo "Bumping $SRCS to $TAG_NAME"
-    #     for src in $SRCS
-    #     do
-    #       bumpfontversion sources/$src --new-version $TAG_NAME;
-    #     done
+    - name: Bump release
+      if: github.event_name == 'release'
+      run: |
+        . venv/bin/activate
+        SRCS=$(yq e ".sources[]" sources/config.yaml)
+        TAG_NAME=${GITHUB_REF/refs\/tags\//}
+        echo "Bumping $SRCS to $TAG_NAME"
+        for src in $SRCS
+        do
+          bumpfontversion sources/$src --new-version $TAG_NAME;
+        done
 
     - name: Build font
       run: make build
@@ -64,6 +63,17 @@ jobs:
         path: |
           fonts
           out
+    - name: Commit files  # transfer the new html files back into the repository
+      run: |
+        git config --local user.name  ${{ github.actor }}        
+        git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+        git add .
+        git commit -m "Updating the repository"
+    - name: Push changes  # push the output folder to your repo
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
