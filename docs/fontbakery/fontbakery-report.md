@@ -10,7 +10,7 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[12] Nemoy[wght].ttf</summary>
+<details><summary>[13] Nemoy[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to a name ID whose string is equal to the string of either name ID 2 or 17, and its postScriptNameID value is set to a name ID whose string is equal to the string of name ID 6. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.fvar.html#"></a></summary>
@@ -50,10 +50,6 @@ fontbakery version: 0.12.10
 </thead>
 <tbody>
 <tr>
-<td align="left">U+0259: LATIN SMALL LETTER SCHWA</td>
-<td align="left">U+018F: LATIN CAPITAL LETTER SCHWA</td>
-</tr>
-<tr>
 <td align="left">U+1E2D: LATIN SMALL LETTER I WITH TILDE BELOW</td>
 <td align="left">U+1E2C: LATIN CAPITAL LETTER I WITH TILDE BELOW</td>
 </tr>
@@ -77,7 +73,9 @@ fontbakery version: 0.12.10
 
 
 * 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- uni0328
+<pre><code>- uni031B
+
+- uni0328
 </code></pre>
  [code: unattached-dotted-circle-marks]
 
@@ -174,9 +172,37 @@ fontbakery version: 0.12.10
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 1 point 32 in glyph 'three' has a kink between location wght=300 and location wght=900
+<pre><code>- Contour 0 point 27 in glyph 'uni02BD' has a kink between location wght=300 and location wght=900
+
+- Contour 1 point 36 in glyph 'three' has a kink between location wght=300 and location wght=900
 </code></pre>
  [code: interpolation-issues]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- _currency_part
+
+- dotlessi_dotbelowcomb
+
+- uni01310328
+
+- uni01310330
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -217,38 +243,31 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, malayalam, duployan, math, canadian-aboriginal, syriac, tifinagh, todhri, hebrew, old-permic, coptic</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, hebrew, tifinagh, math, todhri, coptic, tai-le, canadian-aboriginal, malayalam, old-permic, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, caucasian-albanian, sunuwar, tifinagh, gothic, thai, cherokee</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, caucasian-albanian, tifinagh, gothic, thai, sunuwar</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
-<li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
-<li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
-<li>U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1ECD LATIN SMALL LETTER O WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW: try adding vietnamese</li>
-<li>U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW: try adding vietnamese</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
+<li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
@@ -262,12 +281,43 @@ definitions.</p>
 <li>U+2078 SUPERSCRIPT EIGHT: try adding math</li>
 <li>U+2079 SUPERSCRIPT NINE: try adding math</li>
 <li>U+207F SUPERSCRIPT LATIN SMALL LETTER N: try adding math</li>
-<li>U+2116 NUMERO SIGN: try adding cyrillic</li>
+<li>U+2080 SUBSCRIPT ZERO: try adding math</li>
+<li>U+2081 SUBSCRIPT ONE: try adding math</li>
+<li>U+2082 SUBSCRIPT TWO: try adding math</li>
+<li>U+2083 SUBSCRIPT THREE: try adding math</li>
+<li>U+2084 SUBSCRIPT FOUR: try adding math</li>
+<li>U+2085 SUBSCRIPT FIVE: try adding math</li>
+<li>U+2086 SUBSCRIPT SIX: try adding math</li>
+<li>U+2087 SUBSCRIPT SEVEN: try adding math</li>
+<li>U+2088 SUBSCRIPT EIGHT: try adding math</li>
+<li>U+2089 SUBSCRIPT NINE: try adding math</li>
+<li>U+2105 CARE OF: try adding math</li>
+<li>U+2106 CADA UNA: try adding math</li>
+<li>U+2126 OHM SIGN: try adding math</li>
 <li>U+212E ESTIMATED SYMBOL: try adding math</li>
+<li>U+215B VULGAR FRACTION ONE EIGHTH: try adding symbols</li>
+<li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
+<li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
+<li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+21BA ANTICLOCKWISE OPEN CIRCLE ARROW: try adding math</li>
+<li>U+21BB CLOCKWISE OPEN CIRCLE ARROW: try adding math</li>
+<li>U+21C4 RIGHTWARDS ARROW OVER LEFTWARDS ARROW: try adding math</li>
+<li>U+21C5 UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW: try adding math</li>
+<li>U+21E7 UPWARDS WHITE ARROW: try adding symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
+<li>U+2205 EMPTY SET: try adding math</li>
+<li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, math, symbols, yi</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -275,15 +325,18 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: yi, mongolian, symbols</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: yi, mongolian, symbols</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: yi, mongolian, symbols</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: yi, mongolian, symbols</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: yi, mongolian, symbols</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: yi, mongolian, symbols</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: yi, mongolian, symbols</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: yi, mongolian, symbols</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: yi, mongolian, symbols</li>
+<li>U+2317 VIEWDATA SQUARE: try adding symbols</li>
+<li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
+<li>U+2325 OPTION KEY: try adding symbols</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: mongolian, symbols, yi</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: mongolian, symbols, yi</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: mongolian, symbols, yi</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: mongolian, symbols, yi</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: mongolian, symbols, yi</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: mongolian, symbols, yi</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: mongolian, symbols, yi</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: mongolian, symbols, yi</li>
 <li>U+24B6 CIRCLED LATIN CAPITAL LETTER A: try adding symbols</li>
 <li>U+24B7 CIRCLED LATIN CAPITAL LETTER B: try adding symbols</li>
 <li>U+24B8 CIRCLED LATIN CAPITAL LETTER C: try adding symbols</li>
@@ -338,10 +391,43 @@ definitions.</p>
 <li>U+24E9 CIRCLED LATIN SMALL LETTER Z: try adding symbols</li>
 <li>U+24EA CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
+<li>U+25A0 BLACK SQUARE: try adding symbols</li>
+<li>U+25A1 WHITE SQUARE: try adding symbols</li>
+<li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C6 BLACK DIAMOND: try adding symbols</li>
+<li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, symbols, lao, pahawh-hmong, new-tai-lue, tai-viet, tirhuta, bengali, gujarati, math, soyombo, javanese, hanunoo, dogra, old-permic, lepcha, modi, psalter-pahlavi, bassa-vah, syloti-nagri, devanagari, cham, osage, armenian, buhid, syriac, gunjala-gondi, ahom, sinhala, malayalam, marchen, takri, limbu, hebrew, kharoshthi, myanmar, caucasian-albanian, phags-pa, thai, telugu, newa, masaram-gondi, kaithi, buginese, mandaic, miao, gurmukhi, hanifi-rohingya, mongolian, brahmi, manichaean, sundanese, khmer, sharada, tai-le, khojki, grantha, thaana, coptic, tai-tham, mahajani, yi, kannada, chakma, tamil, khudawadi, tifinagh, adlam, music, sogdian, balinese, nko, kayah-li, batak, duployan, canadian-aboriginal, saurashtra, siddham, rejang, zanabazar-square, oriya, bhaiksuki, elbasan, tagbanwa, mende-kikakui, meetei-mayek, warang-citi, wancho, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, balinese, mahajani, grantha, osage, rejang, canadian-aboriginal, dogra, malayalam, mende-kikakui, warang-citi, thaana, elbasan, siddham, kaithi, tagbanwa, pahawh-hmong, tifinagh, saurashtra, psalter-pahlavi, sharada, brahmi, zanabazar-square, tagalog, newa, tai-tham, thai, takri, miao, duployan, hanifi-rohingya, lepcha, symbols, tai-le, tirhuta, modi, yi, armenian, gujarati, sundanese, new-tai-lue, bassa-vah, meetei-mayek, music, math, myanmar, gunjala-gondi, bengali, oriya, lao, buhid, kharoshthi, khojki, chakma, phags-pa, ahom, soyombo, masaram-gondi, tamil, hanunoo, adlam, old-permic, syriac, mongolian, tai-viet, coptic, marchen, wancho, syloti-nagri, manichaean, mandaic, gurmukhi, batak, limbu, telugu, buginese, javanese, khudawadi, nko, sogdian, devanagari, caucasian-albanian, khmer, sinhala, cham, hebrew, kannada, bhaiksuki, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
+<li>U+2606 WHITE STAR: try adding symbols</li>
+<li>U+261A BLACK LEFT POINTING INDEX: try adding symbols</li>
+<li>U+261B BLACK RIGHT POINTING INDEX: try adding symbols</li>
+<li>U+261C WHITE LEFT POINTING INDEX: try adding symbols</li>
+<li>U+261D WHITE UP POINTING INDEX: try adding symbols</li>
+<li>U+261E WHITE RIGHT POINTING INDEX: try adding symbols</li>
+<li>U+261F WHITE DOWN POINTING INDEX: try adding symbols</li>
+<li>U+262F YIN YANG: try adding symbols</li>
+<li>U+2639 WHITE FROWNING FACE: try adding symbols</li>
+<li>U+263A WHITE SMILING FACE: try adding symbols</li>
+<li>U+263B BLACK SMILING FACE: try adding symbols</li>
+<li>U+2660 BLACK SPADE SUIT: try adding symbols</li>
+<li>U+2663 BLACK CLUB SUIT: try adding symbols</li>
+<li>U+2665 BLACK HEART SUIT: try adding symbols</li>
+<li>U+2666 BLACK DIAMOND SUIT: try adding symbols</li>
+<li>U+2713 CHECK MARK: try adding symbols</li>
+<li>U+272F PINWHEEL STAR: try adding symbols</li>
+<li>U+2735 EIGHT POINTED PINWHEEL STAR: try adding symbols</li>
+<li>U+273F BLACK FLORETTE: try adding symbols</li>
+<li>U+2740 WHITE FLORETTE: try adding symbols</li>
+<li>U+2766 FLORAL HEART: try adding symbols</li>
 <li>U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols</li>
 <li>U+2777 DINGBAT NEGATIVE CIRCLED DIGIT TWO: try adding symbols</li>
 <li>U+2778 DINGBAT NEGATIVE CIRCLED DIGIT THREE: try adding symbols</li>
@@ -351,10 +437,22 @@ definitions.</p>
 <li>U+277C DINGBAT NEGATIVE CIRCLED DIGIT SEVEN: try adding symbols</li>
 <li>U+277D DINGBAT NEGATIVE CIRCLED DIGIT EIGHT: try adding symbols</li>
 <li>U+277E DINGBAT NEGATIVE CIRCLED DIGIT NINE: try adding symbols</li>
-<li>U+E000 : not included in any glyphset definition</li>
+<li>U+2B1B BLACK LARGE SQUARE: try adding symbols</li>
+<li>U+2B1C WHITE LARGE SQUARE: try adding symbols</li>
+<li>U+2B98 THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols</li>
+<li>U+2B99 THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD: try adding symbols</li>
+<li>U+2B9A THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols</li>
+<li>U+2B9B THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols</li>
+<li>U+2B9C BLACK LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols</li>
+<li>U+2B9D BLACK UPWARDS EQUILATERAL ARROWHEAD: try adding symbols</li>
+<li>U+2B9E BLACK RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols</li>
+<li>U+2B9F BLACK DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols</li>
 <li>U+E133 : not included in any glyphset definition</li>
 <li>U+E134 : not included in any glyphset definition</li>
+<li>U+E135 : not included in any glyphset definition</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
+<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
+<li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+1F150 NEGATIVE CIRCLED LATIN CAPITAL LETTER A: try adding symbols</li>
 <li>U+1F151 NEGATIVE CIRCLED LATIN CAPITAL LETTER B: try adding symbols</li>
 <li>U+1F152 NEGATIVE CIRCLED LATIN CAPITAL LETTER C: try adding symbols</li>
@@ -381,8 +479,11 @@ definitions.</p>
 <li>U+1F167 NEGATIVE CIRCLED LATIN CAPITAL LETTER X: try adding symbols</li>
 <li>U+1F168 NEGATIVE CIRCLED LATIN CAPITAL LETTER Y: try adding symbols</li>
 <li>U+1F169 NEGATIVE CIRCLED LATIN CAPITAL LETTER Z: try adding symbols</li>
+<li>U+1F7CF HEAVY EIGHT POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7D3 HEAVY TWELVE POINTED BLACK STAR: try adding symbols</li>
+<li>U+1F7D4 HEAVY TWELVE POINTED PINWHEEL STAR: try adding symbols</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
 
 
@@ -405,6 +506,8 @@ definitions.</p>
 
 * b.blackCircled has a counter-clockwise outer contour
 
+* blackFrowningFace (U+E135) has a counter-clockwise outer contour
+
 * c.blackCircled has a counter-clockwise outer contour
 
 * d.blackCircled has a counter-clockwise outer contour
@@ -417,11 +520,17 @@ definitions.</p>
 
 * f.blackCircled has a counter-clockwise outer contour
 
+* four.osf has a counter-clockwise outer contour
+
+* four.tosf has a counter-clockwise outer contour
+
 * g.blackCircled has a counter-clockwise outer contour
 
 * h.blackCircled has a counter-clockwise outer contour
 
 * i.blackCircled has a counter-clockwise outer contour
+
+* invsmileface (U+263B) has a counter-clockwise outer contour
 
 * j.blackCircled has a counter-clockwise outer contour
 
@@ -502,6 +611,8 @@ definitions.</p>
 * u1F169 (U+1F169) has a counter-clockwise outer contour
 
 * uni24FF (U+24FF) has a counter-clockwise outer contour
+
+* uni25C6 (U+25C6) has a counter-clockwise outer contour
 
 * uni25CF (U+25CF) has a counter-clockwise outer contour
 
@@ -609,8 +720,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 5 | 7 | 97 | 8 | 134 | 0 | 
-| 0% | 0% | 2% | 3% | 39% | 3% | 53% | 0% | 
+| 0 | 0 | 5 | 8 | 96 | 8 | 134 | 0 | 
+| 0% | 0% | 2% | 3% | 38% | 3% | 53% | 0% | 
 
 
 
