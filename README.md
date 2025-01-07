@@ -3,12 +3,14 @@
 [![][Fontbakery]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
 [![][Universal]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
 [![][Outline Checks]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
+[![][Font File Checks]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
+[![][OpenType Specification Checks]](https://noirblancrouge.github.io/Nemoy/fontbakery/fontbakery-report.html)
 
 [Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/badges/overall.json
 [Outline Checks]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/badges/OutlineChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/badges/ShapingChecks.json
+[Font File Checks]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/badges/FontFileChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/badges/UniversalProfileChecks.json
+[OpenType Specification Checks]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Nemoy/badges/OpenTypeSpecificationChecks.json
 
 ![Cover](https://raw.githubusercontent.com/noirblancrouge/Nemoy/master/documentation/images/nemoy.jpg)
 
