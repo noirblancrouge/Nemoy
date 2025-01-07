@@ -31,38 +31,6 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+1E2D: LATIN SMALL LETTER I WITH TILDE BELOW</td>
-<td align="left">U+1E2C: LATIN CAPITAL LETTER I WITH TILDE BELOW</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
@@ -184,6 +152,24 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
+ [code: softhyphen]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
     <div>
 
@@ -197,6 +183,8 @@ fontbakery version: 0.12.10
 <pre><code>- _currency_part
 
 - dotlessi_dotbelowcomb
+
+- prime
 
 - uni01310328
 
@@ -243,34 +231,37 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, hebrew, tifinagh, math, todhri, coptic, tai-le, canadian-aboriginal, malayalam, old-permic, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, hebrew, duployan, syriac, canadian-aboriginal, coptic, math, old-permic, tai-le, tifinagh, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, caucasian-albanian, tifinagh, gothic, thai, sunuwar</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, sunuwar, syriac, thai, cherokee, caucasian-albanian, tifinagh</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
+<li>U+2010 HYPHEN: try adding one of: syloti-nagri, hebrew, kaithi, cham, lisu, yi, coptic, arabic, sora-sompeng, kharoshthi, kayah-li, armenian, sundanese</li>
+<li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
+<li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -405,7 +396,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tibetan, balinese, mahajani, grantha, osage, rejang, canadian-aboriginal, dogra, malayalam, mende-kikakui, warang-citi, thaana, elbasan, siddham, kaithi, tagbanwa, pahawh-hmong, tifinagh, saurashtra, psalter-pahlavi, sharada, brahmi, zanabazar-square, tagalog, newa, tai-tham, thai, takri, miao, duployan, hanifi-rohingya, lepcha, symbols, tai-le, tirhuta, modi, yi, armenian, gujarati, sundanese, new-tai-lue, bassa-vah, meetei-mayek, music, math, myanmar, gunjala-gondi, bengali, oriya, lao, buhid, kharoshthi, khojki, chakma, phags-pa, ahom, soyombo, masaram-gondi, tamil, hanunoo, adlam, old-permic, syriac, mongolian, tai-viet, coptic, marchen, wancho, syloti-nagri, manichaean, mandaic, gurmukhi, batak, limbu, telugu, buginese, javanese, khudawadi, nko, sogdian, devanagari, caucasian-albanian, khmer, sinhala, cham, hebrew, kannada, bhaiksuki, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, tirhuta, miao, brahmi, zanabazar-square, nko, telugu, cham, marchen, yi, sogdian, buhid, gurmukhi, elbasan, malayalam, caucasian-albanian, mandaic, symbols, warang-citi, old-permic, bhaiksuki, ahom, myanmar, balinese, khudawadi, sinhala, bassa-vah, kayah-li, phags-pa, oriya, coptic, meetei-mayek, mahajani, kaithi, math, kharoshthi, armenian, khojki, music, siddham, grantha, mende-kikakui, rejang, dogra, pahawh-hmong, saurashtra, tai-tham, sharada, manichaean, gujarati, khmer, tai-viet, tamil, syriac, batak, limbu, lepcha, tai-le, thai, newa, bengali, soyombo, tifinagh, sundanese, masaram-gondi, gunjala-gondi, syloti-nagri, hanunoo, takri, tagalog, lao, duployan, adlam, chakma, osage, javanese, tagbanwa, psalter-pahlavi, devanagari, hebrew, wancho, canadian-aboriginal, kannada, mongolian, modi, new-tai-lue, thaana, tibetan, buginese</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+2606 WHITE STAR: try adding symbols</li>
 <li>U+261A BLACK LEFT POINTING INDEX: try adding symbols</li>
@@ -450,8 +441,12 @@ definitions.</p>
 <li>U+E133 : not included in any glyphset definition</li>
 <li>U+E134 : not included in any glyphset definition</li>
 <li>U+E135 : not included in any glyphset definition</li>
+<li>U+FB00 LATIN SMALL LIGATURE FF: not included in any glyphset definition</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
+<li>U+FB03 LATIN SMALL LIGATURE FFI: not included in any glyphset definition</li>
+<li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
+<li>U+FB06 LATIN SMALL LIGATURE ST: not included in any glyphset definition</li>
 <li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+1F150 NEGATIVE CIRCLED LATIN CAPITAL LETTER A: try adding symbols</li>
 <li>U+1F151 NEGATIVE CIRCLED LATIN CAPITAL LETTER B: try adding symbols</li>
@@ -720,8 +715,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 5 | 8 | 96 | 8 | 134 | 0 | 
-| 0% | 0% | 2% | 3% | 38% | 3% | 53% | 0% | 
+| 0 | 0 | 4 | 9 | 96 | 8 | 134 | 0 | 
+| 0% | 0% | 2% | 4% | 38% | 3% | 53% | 0% | 
 
 
 
