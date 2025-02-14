@@ -27,6 +27,9 @@ The Nemoy font as originally been designed for a student project about Philip K.
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+14 Jan 2025 (Bastien Sozeau)
+- Add glyphs according to the standards of the NBR glyphset
+
 27 Jul 2023 (Bastien Sozeau)
 - Add glyphs, add variable version, overall cleanup and full redesign
 
